@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product Movements</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #555;
+            color: #fff;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            margin: 0 5px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .btn-add {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align:center;">Product Movements</h2>
+
+    <a href="/add_movement" class="btn-add">Add Movement</a>
+    <a href="/add_product" class="btn-add">Add Product</a>
+    <a href="/add_location" class="btn-add">Add Location</a>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>From</th>
+                <th>To</th>
+                <th>Quantity</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% if movements %}
+                {% for m in movements %}
+                <tr>
+                    <td>{{ m.product_name }}</td>
+                    <td>{{ m.from_location or '-' }}</td>
+                    <td>{{ m.to_location or '-' }}</td>
+                    <td>{{ m.qty }}</td>
+                    <td>
+                        <a href="/edit_movement/{{ m.movement_id }}">Edit</a> |
+                        <a href="/delete_movement/{{ m.movement_id }}">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            {% else %}
+                <tr>
+                    <td colspan="5">No data available</td>
+                </tr>
+            {% endif %}
+        </tbody>
+    </table>
+
+</body>
+</html>
