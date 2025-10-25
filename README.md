@@ -2,7 +2,6 @@ This is a simple Flask application build with Python.it has 9 HTML templates and
 app.py.The project demonstartes basic web page rendering using Flask templates and is easy to extend.Screenshots of the pages can be added to show how the app looks.
 
 
-<img width="1366" height="768" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/f2ed1250-1984-41f4-9baa-c68374ed4899" />
 
 <img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/5f1ae75e-6ba2-43af-811a-c1fa000cbe89" />
 
