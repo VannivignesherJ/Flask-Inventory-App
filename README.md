@@ -2,10 +2,25 @@ This is a simple Flask application build with Python.it has 9 HTML templates and
 app.py.The project demonstartes basic web page rendering using Flask templates and is easy to extend.Screenshots of the pages can be added to show how the app looks.
 
 
-<img width="1299" height="601" alt="inventory app1" src="https://github.com/user-attachments/assets/ca8c8467-39ab-4fe9-9e33-69a469bd6bba" />
+<img width="1366" height="768" alt="Screenshot (61)" src="https://github.com/user-attachments/assets/f2ed1250-1984-41f4-9baa-c68374ed4899" />
 
-<img width="763" height="496" alt="location" src="https://github.com/user-attachments/assets/67d43a9a-ffa4-4528-9d80-177eabee2803" />
+<img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/5f1ae75e-6ba2-43af-811a-c1fa000cbe89" />
 
-<img width="763" height="496" alt="products" src="https://github.com/user-attachments/assets/bb92fc69-df47-41f6-b528-a5b9720dde60" />
+<img width="1366" height="768" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/3f8a8df6-1ab4-4ff7-ab86-73a27e519cea" />
 
-<img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/7e34709a-056b-4e13-9811-3ed15f2f3a0a" />
+<img width="1366" height="768" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/163d390a-954d-4e3b-9b9c-ebcdaee38961" />
+
+<img width="1366" height="768" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/4627ec1d-31e5-4ce5-a9e2-d80eb2976bf2" />
+
+<img width="1366" height="768" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/903e4c39-69c1-4ba0-8a51-b0701dfa996e" />
+
+<img width="1366" height="768" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/6e09a86e-98cf-444e-b3b0-40d6f208af35" />
+
+<img width="1366" height="768" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/f8198ca0-8e54-45e9-9e6e-9479d2dc86e1" />
+
+
+
+
+
+
+
