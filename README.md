@@ -1,6 +1,7 @@
 This is a simple Flask application build with Python.it has 9 HTML templates and single app.py file that handles the routing for different pages.You can run the app locally by installing Flask and running 
 app.py.The project demonstartes basic web page rendering using Flask templates and is easy to extend.Screenshots of the pages can be added to show how the app looks.
 
+<img width="1366" height="768" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/bb48589b-9cab-46d6-af69-b3e4f4fea40d" />
 
 
 <img width="1366" height="768" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/5f1ae75e-6ba2-43af-811a-c1fa000cbe89" />
